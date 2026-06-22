@@ -19,10 +19,10 @@ function Hero() {
 
           <div className="image-container">
             <img
-              src={profile}
+              src={profile.png}
               alt="Carmina Tinah Mbatsane"
-              className="profile-img"
-            />
+              className="profile-img" />
+            
           </div>
 
           <h1>
