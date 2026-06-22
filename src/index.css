@@ -391,4 +391,26 @@ nav a{
   background: #ff248c;
   transform: scale(1.03);
 }
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 60px;
+}
+
+.profile-img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid pink;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }
