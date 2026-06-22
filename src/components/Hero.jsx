@@ -1,5 +1,4 @@
 import profile from "../assets/profile.png";
-import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Hero() {
@@ -17,17 +16,24 @@ function Hero() {
     <section className="hero" id="hero">
       <div className="hero-content">
         <div className="hero-text">
+
+          <div className="image-container">
+            <img
+              src={profile}
+              alt="Carmina Tinah Mbatsane"
+              className="profile-img"
+            />
+          </div>
+
           <h1>
             Hi, I'm <span>Carmina Tinah Mbatsane</span>
           </h1>
 
-          <h2>
-          <h2>Full Stack Developer</h2>
-          </h2>
+          <h2>Junior Full Stack Developer</h2>
 
           <p>
-            I build scalable web applications with Java, Spring Boot, React,
-            MySQL, and Docker.
+            I build scalable web applications using Java, Spring Boot,
+            React, MySQL, and Docker.
           </p>
 
           <div className="hero-buttons">
@@ -59,6 +65,7 @@ function Hero() {
               <FaLinkedin />
             </a>
           </div>
+
         </div>
 
         <div className="hero-image">
