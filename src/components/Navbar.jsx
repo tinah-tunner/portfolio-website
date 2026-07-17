@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav>
 
-      <h2>Carmina.</h2>
+      <h2>Carmina`s creation.</h2>
 
       <ul>
         <li><a href="#hero">Home</a></li>

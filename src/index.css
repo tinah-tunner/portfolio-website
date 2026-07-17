@@ -6,9 +6,9 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #020617, #0f172a, #1e293b);
-  color: white;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  color: #1f2937;
   overflow-x: hidden;
 }
 
@@ -24,15 +24,29 @@ nav {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: rgba(15, 23, 42, 0.95);
+ background: rgba(255,255,255,0.95);
+backdrop-filter: blur(12px);
+border-bottom: 2px solid #3b82f6;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
 }
-
 nav h2 {
-  color: white;
+  color: #2563eb;
+}
+
+nav a {
+  color: #374151;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+nav a:hover {
+    color: #E75480;
 }
 
 nav ul {
@@ -40,6 +54,7 @@ nav ul {
   list-style: none;
   gap: 30px;
 }
+
 
 nav a {
   color: white;

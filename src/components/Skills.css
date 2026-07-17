@@ -1,0 +1,82 @@
+.skills {
+  padding: 80px 8%;
+  background: transparent;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 40px;
+}
+
+.category-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 18px;
+  border: 1px solid #f3d6df;
+  transition: 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(59,130,246,.18)
+}
+
+.category-card {
+  background: white;
+  border: 2px solid #3b82f6;
+  border-radius: 15px;
+  padding: 18px;
+  transition: 0.3s;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.skill-item:hover {
+  background: #fdf3f7;
+}
+
+.skill-icon {
+  font-size: 20px;
+  color: #E75480;
+  width: 24px;
+  text-align: center;
+}
+
+.skill-item p {
+  margin: 0;
+  color: #2d2d2d;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title h1 {
+  color: #ffffff; /* Change to #8B1E3F if your page background becomes white */
+  font-size: 2.5rem;
+}
+
+.underline {
+  width: 60px;
+  height: 3px;
+  background: #35C9C8;
+  margin: 10px auto 0;
+  border-radius: 20px;
+}

@@ -1,0 +1,149 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 80px 10%;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.intro {
+  color: #ec4899;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 3.8rem;
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.hero-text h1 span {
+  color: #2563eb;
+}
+
+.hero-text h2 {
+  color: #ec4899;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  min-height: 50px;
+}
+
+.hero-text p {
+  color: #4b5563;
+  line-height: 1.8;
+  font-size: 17px;
+  margin-bottom: 35px;
+  max-width: 650px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.hero-buttons button,
+.hero-buttons a {
+  padding: 14px 30px;
+  border-radius: 10px;
+  border: 2px solid #2563eb;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.hero-buttons button:hover,
+.hero-buttons a:hover {
+  background: #ec4899;
+  border-color: #ec4899;
+  transform: translateY(-3px);
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #2563eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2563eb;
+  font-size: 22px;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #ec4899;
+  border-color: #ec4899;
+  color: white;
+  transform: translateY(-5px);
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #2563eb;
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.2);
+  transition: 0.3s ease;
+}
+
+.hero-image img:hover {
+  border-color: #ec4899;
+  transform: scale(1.03);
+}
+
+@media (max-width: 900px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-buttons,
+  .social-icons {
+    justify-content: center;
+  }
+
+  .hero-text p {
+    margin: 0 auto 35px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-image img {
+    width: 280px;
+    height: 280px;
+  }
+}
