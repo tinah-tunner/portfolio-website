@@ -78,6 +78,16 @@ function Hero() {
           <img src={profile} alt="Carmina Tinah Mbatsane" />
         </div>
       </div>
+
+      <a href="#about" className="scroll-indicator">
+  <div className="mouse">
+    <div className="wheel"></div>
+  </div>
+
+  <span className="arrow">⌄</span>
+
+  <p>Explore My Work</p>
+</a>
     </section>
   );
 }
